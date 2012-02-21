@@ -3,6 +3,8 @@
 # This program is distributed under the terms of the GNU General Public License
 # (GPLv3) as published by the Free Software Foundation. 
 # <http://www.gnu.org/licenses/> <https://github.com/dalhuijsen/bashnative>
+echo "${0##*/}: REQUIRES BASH4 :P" >&2
+exit 1
 
 main () {
    X=0
